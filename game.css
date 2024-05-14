@@ -1,0 +1,53 @@
+body{
+    background-color: #90aead;
+}
+
+
+input{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 36px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    background-color: #ede8f5;
+}
+
+.container{
+    display: grid;
+    grid-column: (3,auto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+button{
+    margin-top: 20px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color:#fbe9d0;
+    border: 1px solid#ffd498;
+    cursor: pointer;
+}
+
+#msg{
+    font-family: Verdana, 
+         Tahoma, sans-serif; 
+    color: #fbe9d0; 
+    font-size: 20px; 
+}
+
+#print { 
+    font-family: Verdana, 
+         Tahoma, sans-serif; 
+    margin-top: -10px;
+    color: red; 
+    font-size: 20px; 
+    /* display: none; */
+}
